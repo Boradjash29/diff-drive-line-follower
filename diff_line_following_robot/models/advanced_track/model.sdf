@@ -1,0 +1,1576 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="advanced_track">
+    <static>true</static>
+    <!-- White Floor -->
+    <link name="floor">
+      <collision name="collision">
+        <geometry><plane><normal>0 0 1</normal><size>35 20</size></plane></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><plane><normal>0 0 1</normal><size>35 20</size></plane></geometry>
+        <material>
+          <ambient>1 1 1 1</ambient><diffuse>1 1 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+    </link>
+    <link name="line_1">
+      <pose>-5.5000 0.0000 0.001 0 0 0.000000</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>3.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_2">
+      <pose>-3.9510 0.0024 0.001 0 0 0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_3">
+      <pose>-3.8549 0.0215 0.001 0 0 0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_4">
+      <pose>-3.7643 0.0590 0.001 0 0 0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_5">
+      <pose>-3.6828 0.1135 0.001 0 0 0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_6">
+      <pose>-3.6135 0.1828 0.001 0 0 0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_7">
+      <pose>-3.5590 0.2643 0.001 0 0 1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_8">
+      <pose>-3.5215 0.3549 0.001 0 0 1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_9">
+      <pose>-3.5024 0.4510 0.001 0 0 1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_10">
+      <pose>-3.4976 0.5490 0.001 0 0 1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_11">
+      <pose>-3.4785 0.6451 0.001 0 0 1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_12">
+      <pose>-3.4410 0.7357 0.001 0 0 1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_13">
+      <pose>-3.3865 0.8172 0.001 0 0 0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_14">
+      <pose>-3.3172 0.8865 0.001 0 0 0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_15">
+      <pose>-3.2357 0.9410 0.001 0 0 0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_16">
+      <pose>-3.1451 0.9785 0.001 0 0 0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_17">
+      <pose>-3.0490 0.9976 0.001 0 0 0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_18">
+      <pose>-2.0000 1.0000 0.001 0 0 0.000000</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>2.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_19">
+      <pose>-0.9755 0.9988 0.001 0 0 -0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_20">
+      <pose>-0.9274 0.9892 0.001 0 0 -0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_21">
+      <pose>-0.8822 0.9705 0.001 0 0 -0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_22">
+      <pose>-0.8414 0.9433 0.001 0 0 -0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_23">
+      <pose>-0.8067 0.9086 0.001 0 0 -0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_24">
+      <pose>-0.7795 0.8678 0.001 0 0 -1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_25">
+      <pose>-0.7608 0.8226 0.001 0 0 -1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_26">
+      <pose>-0.7512 0.7745 0.001 0 0 -1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_27">
+      <pose>-0.7488 0.7255 0.001 0 0 4.810564</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_28">
+      <pose>-0.7392 0.6774 0.001 0 0 5.006913</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_29">
+      <pose>-0.7205 0.6322 0.001 0 0 5.203263</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_30">
+      <pose>-0.6933 0.5914 0.001 0 0 5.399612</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_31">
+      <pose>-0.6586 0.5567 0.001 0 0 5.595962</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_32">
+      <pose>-0.6178 0.5295 0.001 0 0 5.792311</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_33">
+      <pose>-0.5726 0.5108 0.001 0 0 5.988661</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_34">
+      <pose>-0.5245 0.5012 0.001 0 0 6.185011</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_35">
+      <pose>0.5000 0.5000 0.001 0 0 0.000000</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>2.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_36">
+      <pose>1.5490 0.4976 0.001 0 0 -0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_37">
+      <pose>1.6451 0.4785 0.001 0 0 -0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_38">
+      <pose>1.7357 0.4410 0.001 0 0 -0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_39">
+      <pose>1.8172 0.3865 0.001 0 0 -0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_40">
+      <pose>1.8865 0.3172 0.001 0 0 -0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_41">
+      <pose>1.9410 0.2357 0.001 0 0 -1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_42">
+      <pose>1.9785 0.1451 0.001 0 0 -1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_43">
+      <pose>1.9976 0.0490 0.001 0 0 -1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_44">
+      <pose>2.0024 -0.0490 0.001 0 0 4.810564</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_45">
+      <pose>2.0215 -0.1451 0.001 0 0 5.006913</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_46">
+      <pose>2.0590 -0.2357 0.001 0 0 5.203263</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_47">
+      <pose>2.1135 -0.3172 0.001 0 0 5.399612</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_48">
+      <pose>2.1828 -0.3865 0.001 0 0 5.595962</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_49">
+      <pose>2.2643 -0.4410 0.001 0 0 5.792311</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_50">
+      <pose>2.3549 -0.4785 0.001 0 0 5.988661</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_51">
+      <pose>2.4510 -0.4976 0.001 0 0 6.185011</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_52">
+      <pose>2.5245 -0.4988 0.001 0 0 0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_53">
+      <pose>2.5726 -0.4892 0.001 0 0 0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_54">
+      <pose>2.6178 -0.4705 0.001 0 0 0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_55">
+      <pose>2.6586 -0.4433 0.001 0 0 0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_56">
+      <pose>2.6933 -0.4086 0.001 0 0 0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_57">
+      <pose>2.7205 -0.3678 0.001 0 0 1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_58">
+      <pose>2.7392 -0.3226 0.001 0 0 1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_59">
+      <pose>2.7488 -0.2745 0.001 0 0 1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_60">
+      <pose>2.7512 -0.2255 0.001 0 0 1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_61">
+      <pose>2.7608 -0.1774 0.001 0 0 1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_62">
+      <pose>2.7795 -0.1322 0.001 0 0 1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_63">
+      <pose>2.8067 -0.0914 0.001 0 0 0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_64">
+      <pose>2.8414 -0.0567 0.001 0 0 0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_65">
+      <pose>2.8822 -0.0295 0.001 0 0 0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_66">
+      <pose>2.9274 -0.0108 0.001 0 0 0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_67">
+      <pose>2.9755 -0.0012 0.001 0 0 0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0530 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_68">
+      <pose>3.5000 0.0000 0.001 0 0 0.000000</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_69">
+      <pose>4.0490 -0.0024 0.001 0 0 -0.098175</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_70">
+      <pose>4.1451 -0.0215 0.001 0 0 -0.294524</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_71">
+      <pose>4.2357 -0.0590 0.001 0 0 -0.490874</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_72">
+      <pose>4.3172 -0.1135 0.001 0 0 -0.687223</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_73">
+      <pose>4.3865 -0.1828 0.001 0 0 -0.883573</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_74">
+      <pose>4.4410 -0.2643 0.001 0 0 -1.079922</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_75">
+      <pose>4.4785 -0.3549 0.001 0 0 -1.276272</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_76">
+      <pose>4.4976 -0.4510 0.001 0 0 -1.472622</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_77">
+      <pose>4.4976 -0.5490 0.001 0 0 -1.668971</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_78">
+      <pose>4.4785 -0.6451 0.001 0 0 -1.865321</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_79">
+      <pose>4.4410 -0.7357 0.001 0 0 -2.061670</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_80">
+      <pose>4.3865 -0.8172 0.001 0 0 -2.258020</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_81">
+      <pose>4.3172 -0.8865 0.001 0 0 -2.454369</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_82">
+      <pose>4.2357 -0.9410 0.001 0 0 -2.650719</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_83">
+      <pose>4.1451 -0.9785 0.001 0 0 -2.847068</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_84">
+      <pose>4.0490 -0.9976 0.001 0 0 -3.043418</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_85">
+      <pose>3.2500 -1.0000 0.001 0 0 -3.141593</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.5000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_86">
+      <pose>2.4657 -1.0017 0.001 0 0 3.239767</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_87">
+      <pose>2.3984 -1.0151 0.001 0 0 3.436117</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_88">
+      <pose>2.3350 -1.0413 0.001 0 0 3.632467</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_89">
+      <pose>2.2780 -1.0794 0.001 0 0 3.828816</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_90">
+      <pose>2.2294 -1.1280 0.001 0 0 4.025166</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_91">
+      <pose>2.1913 -1.1850 0.001 0 0 4.221515</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_92">
+      <pose>2.1651 -1.2484 0.001 0 0 4.417865</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_93">
+      <pose>2.1517 -1.3157 0.001 0 0 4.614214</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_94">
+      <pose>2.1500 -1.6000 0.001 0 0 -1.570796</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.5000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_95">
+      <pose>2.1483 -1.8843 0.001 0 0 -1.668971</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_96">
+      <pose>2.1349 -1.9516 0.001 0 0 -1.865321</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_97">
+      <pose>2.1087 -2.0150 0.001 0 0 -2.061670</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_98">
+      <pose>2.0706 -2.0720 0.001 0 0 -2.258020</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_99">
+      <pose>2.0220 -2.1206 0.001 0 0 -2.454369</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_100">
+      <pose>1.9650 -2.1587 0.001 0 0 -2.650719</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_101">
+      <pose>1.9016 -2.1849 0.001 0 0 -2.847068</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_102">
+      <pose>1.8343 -2.1983 0.001 0 0 -3.043418</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_103">
+      <pose>1.3000 -2.2000 0.001 0 0 -3.141593</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_104">
+      <pose>0.7657 -2.1983 0.001 0 0 -3.239767</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_105">
+      <pose>0.6984 -2.1849 0.001 0 0 -3.436117</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_106">
+      <pose>0.6350 -2.1587 0.001 0 0 -3.632467</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_107">
+      <pose>0.5780 -2.1206 0.001 0 0 -3.828816</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_108">
+      <pose>0.5294 -2.0720 0.001 0 0 -4.025166</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_109">
+      <pose>0.4913 -2.0150 0.001 0 0 -4.221515</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_110">
+      <pose>0.4651 -1.9516 0.001 0 0 -4.417865</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_111">
+      <pose>0.4517 -1.8843 0.001 0 0 -4.614214</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_112">
+      <pose>0.4500 -1.6000 0.001 0 0 -4.712389</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.5000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_113">
+      <pose>0.4483 -1.3157 0.001 0 0 1.668971</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_114">
+      <pose>0.4349 -1.2484 0.001 0 0 1.865321</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_115">
+      <pose>0.4087 -1.1850 0.001 0 0 2.061670</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_116">
+      <pose>0.3706 -1.1280 0.001 0 0 2.258020</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_117">
+      <pose>0.3220 -1.0794 0.001 0 0 2.454369</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_118">
+      <pose>0.2650 -1.0413 0.001 0 0 2.650719</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_119">
+      <pose>0.2016 -1.0151 0.001 0 0 2.847068</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_120">
+      <pose>0.1343 -1.0017 0.001 0 0 3.043418</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_121">
+      <pose>-0.4000 -1.0000 0.001 0 0 -3.141593</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_122">
+      <pose>-0.9343 -0.9983 0.001 0 0 -3.239767</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_123">
+      <pose>-1.0016 -0.9849 0.001 0 0 -3.436117</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_124">
+      <pose>-1.0650 -0.9587 0.001 0 0 -3.632467</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_125">
+      <pose>-1.1220 -0.9206 0.001 0 0 -3.828816</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_126">
+      <pose>-1.1706 -0.8720 0.001 0 0 -4.025166</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_127">
+      <pose>-1.2087 -0.8150 0.001 0 0 -4.221515</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_128">
+      <pose>-1.2349 -0.7516 0.001 0 0 -4.417865</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_129">
+      <pose>-1.2483 -0.6843 0.001 0 0 -4.614214</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_130">
+      <pose>-1.2500 -0.4000 0.001 0 0 -4.712389</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.5000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_131">
+      <pose>-1.2517 -0.1157 0.001 0 0 1.668971</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_132">
+      <pose>-1.2651 -0.0484 0.001 0 0 1.865321</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_133">
+      <pose>-1.2913 0.0150 0.001 0 0 2.061670</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_134">
+      <pose>-1.3294 0.0720 0.001 0 0 2.258020</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_135">
+      <pose>-1.3780 0.1206 0.001 0 0 2.454369</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_136">
+      <pose>-1.4350 0.1587 0.001 0 0 2.650719</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_137">
+      <pose>-1.4984 0.1849 0.001 0 0 2.847068</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_138">
+      <pose>-1.5657 0.1983 0.001 0 0 3.043418</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_139">
+      <pose>-2.1000 0.2000 0.001 0 0 -3.141593</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>1.0000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_140">
+      <pose>-2.6343 0.1983 0.001 0 0 3.239767</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_141">
+      <pose>-2.7016 0.1849 0.001 0 0 3.436117</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_142">
+      <pose>-2.7650 0.1587 0.001 0 0 3.632467</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_143">
+      <pose>-2.8220 0.1206 0.001 0 0 3.828816</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_144">
+      <pose>-2.8706 0.0720 0.001 0 0 4.025166</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_145">
+      <pose>-2.9087 0.0150 0.001 0 0 4.221515</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_146">
+      <pose>-2.9349 -0.0484 0.001 0 0 4.417865</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_147">
+      <pose>-2.9483 -0.1157 0.001 0 0 4.614214</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_148">
+      <pose>-2.9500 -0.4000 0.001 0 0 -1.570796</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.5000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_149">
+      <pose>-2.9517 -0.6843 0.001 0 0 -1.668971</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_150">
+      <pose>-2.9651 -0.7516 0.001 0 0 -1.865321</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_151">
+      <pose>-2.9913 -0.8150 0.001 0 0 -2.061670</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_152">
+      <pose>-3.0294 -0.8720 0.001 0 0 -2.258020</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_153">
+      <pose>-3.0780 -0.9206 0.001 0 0 -2.454369</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_154">
+      <pose>-3.1350 -0.9587 0.001 0 0 -2.650719</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_155">
+      <pose>-3.1984 -0.9849 0.001 0 0 -2.847068</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_156">
+      <pose>-3.2657 -0.9983 0.001 0 0 -3.043418</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.0726 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_157">
+      <pose>-5.1500 -1.0000 0.001 0 0 -3.141593</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>3.7000 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_158">
+      <pose>-7.0490 -0.9976 0.001 0 0 -3.239767</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_159">
+      <pose>-7.1451 -0.9785 0.001 0 0 -3.436117</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_160">
+      <pose>-7.2357 -0.9410 0.001 0 0 -3.632467</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_161">
+      <pose>-7.3172 -0.8865 0.001 0 0 -3.828816</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_162">
+      <pose>-7.3865 -0.8172 0.001 0 0 -4.025166</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_163">
+      <pose>-7.4410 -0.7357 0.001 0 0 -4.221515</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_164">
+      <pose>-7.4785 -0.6451 0.001 0 0 -4.417865</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_165">
+      <pose>-7.4976 -0.5490 0.001 0 0 -4.614214</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_166">
+      <pose>-7.4976 -0.4510 0.001 0 0 -4.810564</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_167">
+      <pose>-7.4785 -0.3549 0.001 0 0 -5.006913</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_168">
+      <pose>-7.4410 -0.2643 0.001 0 0 -5.203263</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_169">
+      <pose>-7.3865 -0.1828 0.001 0 0 -5.399612</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_170">
+      <pose>-7.3172 -0.1135 0.001 0 0 -5.595962</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_171">
+      <pose>-7.2357 -0.0590 0.001 0 0 -5.792311</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_172">
+      <pose>-7.1451 -0.0215 0.001 0 0 -5.988661</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+    <link name="line_173">
+      <pose>-7.0490 -0.0024 0.001 0 0 -6.185011</pose>
+      <visual name="visual">
+        <geometry>
+          <box><size>0.1020 0.065 0.001</size></box>
+        </geometry>
+        <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+      </visual>
+    </link>
+  </model>
+</sdf>
